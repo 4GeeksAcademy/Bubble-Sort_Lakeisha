@@ -15,19 +15,23 @@
     />
   </head>
   <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
-    </div>
+<div class="fixed-bottom p-4">
+  <div class="d-flex col-10">
+    <h5 class="mt-2">Original</h5>
+    <input
+      id="newcards"
+      class="mt-2 ms-2"
+      type="text"
+      placeholder="How many cards?"
+    />
+  </div>
+  <div>
+    <button id="gen" class="mt-1 ms-2">Draw</button>
+    <button id="sortbtn" class="mt-1">Sort</button>
+  </div>
+</div>
+<div id="cards" class="d-flex flex-wrap col-10 mt-4"></div>
+<div id="cardsLog" class="mt-4 col-10"></div>
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>

@@ -1,5 +1,10 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(224, 173, 206);
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgb(166, 166, 174);
 }
